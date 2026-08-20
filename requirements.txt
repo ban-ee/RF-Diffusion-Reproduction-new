@@ -1,0 +1,15 @@
+# RF-Diffusion 复现实验环境：Python 3.8.10、CUDA 11.8
+# 以下版本与生成实验结果时使用的 AutoDL 环境一致。
+#
+# 1）先安装 PyTorch（官方 README 仅写明 `pip3 install torch`）：
+#      pip3 install torch==2.0.0 torchvision==0.15.1 --index-url https://download.pytorch.org/whl/cu118
+# 2）再安装其余依赖：
+#      pip3 install -r requirements.txt
+
+numpy==1.24.2
+scipy==1.10.1
+matplotlib==3.7.1
+tqdm
+pytorch-fid==0.3.0
+tensorboard==2.12.0
+Pillow==9.4.0
